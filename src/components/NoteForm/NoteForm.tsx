@@ -3,7 +3,7 @@ import * as Yup from "yup";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { createNote } from "../services/noteService";
 import styles from "./NoteForm.module.css";
-import { NewNote } from "../../types/note";
+import type { NewNote } from "../../types/note";
 import { toast } from "react-hot-toast";
 
 interface NoteFormProps {
